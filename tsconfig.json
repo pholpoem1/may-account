@@ -17,8 +17,16 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "checkJs": true,
+    // "files": [
+    //   "*.d.ts",
+    //   "*.js",
+    // ],
+    "sourceMap": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
+ 
+    
 }

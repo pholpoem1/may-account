@@ -12,22 +12,12 @@ import "@/styles/styles.css";
 import type { AppProps } from "next/app";
 import ScriptComponent from "@/components/script-component";
 import Layout from "@/components/layout/layout";
-import { SWRConfig } from "swr";
-
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <SWRConfig
-      value={{
-        refreshInterval: 3000,
-        fetcher,
-      }}
-    >
-      <Layout>
-        <Component {...pageProps} />
-        <ScriptComponent />
-      </Layout>
-    </SWRConfig>
+    <Layout>
+      <Component {...pageProps} />
+      <ScriptComponent />
+    </Layout>
   );
 }
