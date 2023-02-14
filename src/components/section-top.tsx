@@ -3,8 +3,7 @@ const SectionTop = () => {
     <section
       className="jarallax py-xxl-5 min-vh-100"
       style={{
-        backgroundImage:
-          "url(assets/img/shutter-stock/stock-photo-businessman-analyzing-investment-charts-with-laptop-accounting-334211525.jpg)",
+        backgroundImage: "url(assets/img/header/accounting3.jpeg)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",

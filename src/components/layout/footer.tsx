@@ -124,16 +124,14 @@ const Footer = () => {
           </div>
         </div>
         <p className="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
-          <span className="text-light opacity-50">
-            &copy; All rights reserved. Made by
-          </span>
+          <span className="text-light opacity-50">&copy; Copy right by </span>
           <a
             className="nav-link d-inline-block p-0"
-            href="https://createx.studio/"
+            href="https://may-account.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Createx Studio
+            may-account.com
           </a>
         </p>
       </div>
